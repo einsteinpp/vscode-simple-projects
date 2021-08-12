@@ -55,15 +55,6 @@ class ProjectManager {
   }
 
   /**
-   * Open a project
-   *
-   * @param project the project we want to open
-   */
-  public openProject(project: Project): void {
-    console.log(project);
-  }
-
-  /**
    * Return all projects discovered
    */
   public getAllProjects(): Array<Project> {

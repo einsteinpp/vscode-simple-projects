@@ -58,11 +58,11 @@ class SimpleProjects {
 
     window.showQuickPick(projects).then((selected) => {
       if (selected !== undefined) {
-        let project = this._projectManager.getProject(selected.uid);
+        let project;
 
         //? can we handle this better ?
         try {
-          this._projectManager.openProject(project);
+          project = this._projectManager.getProject(selected.uid);
         } catch (error) {
           window.showErrorMessage(error);
           return;
