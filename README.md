@@ -19,6 +19,9 @@ This extension contributes the following settings:
 ## Release Notes
 
 
+### 0.0.2
+Fixing a bug when two projects shared the same name
+
 ### 0.0.1
 
 Initial release of simple projects
