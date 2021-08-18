@@ -2,7 +2,7 @@
   "name": "simple-projects",
   "displayName": "Simple Projects",
   "description": "Manage your projects inside vscode without hassle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "vincentkos",
   "engines": {
     "vscode": "^1.59.0"
