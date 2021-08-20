@@ -18,6 +18,8 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 0.0.3
+Add path as a description to know wich project you open if two have the same name
 
 ### 0.0.2
 Fixing a bug when two projects shared the same name
