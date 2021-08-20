@@ -53,6 +53,7 @@ class SimpleProjects {
         return {
           uid: project.uid,
           label: project.name,
+          description: project.path,
         };
       });
 
